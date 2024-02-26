@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Riwayat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Riwayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/font20"
+            android:textStyle="bold"
+            android:text="@string/Riwayat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15px"
+            android:padding="15px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Bagian1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@color/biruTua"
+                android:onClick="openProfileActivityProfil"
+                android:orientation="vertical"
+                android:padding="15px">
+
+                <TextView
+                    android:id="@+id/SEP1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/SEP60"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font20" />
+
+                <TextView
+                    android:id="@+id/Event1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/Event1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font12" />
+
+                <TextView
+                    android:id="@+id/Tgl1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/Tgl1"
+                    android:textSize="@dimen/font12"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15px"
+            android:padding="15px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Bagian2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@color/kuning"
+                android:onClick="openProfileActivityProfil"
+                android:orientation="vertical"
+                android:padding="15px">
+
+                <TextView
+                    android:id="@+id/SEP2"
+                    android:layout_width="210dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/SEP32"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font18" />
+
+                <TextView
+                    android:id="@+id/Event2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/Event2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font12" />
+
+                <TextView
+                    android:id="@+id/Tgl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/font12"
+                    android:text="@string/Tgl2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15px"
+            android:padding="15px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Bagian3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@color/biruTua"
+                android:onClick="openProfileActivityProfil"
+                android:orientation="vertical"
+                android:padding="15px">
+
+                <TextView
+                    android:id="@+id/SEP3"
+                    android:layout_width="221dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/SEP64"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font18" />
+
+                <TextView
+                    android:id="@+id/Event3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/Event3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font12" />
+
+                <TextView
+                    android:id="@+id/Tgl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font12"
+                    android:text="@string/Tgl3" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="15px"
+            android:padding="15px"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/Bagian4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@color/kuning"
+                android:onClick="openProfileActivityProfil"
+                android:orientation="vertical"
+                android:padding="15px">
+
+                <TextView
+                    android:id="@+id/SEP4"
+                    android:layout_width="211dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/SEP32"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/font18" />
+
+                <TextView
+                    android:id="@+id/Event4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/Event4"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font12" />
+
+                <TextView
+                    android:id="@+id/Tgl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/font12"
+                    android:text="@string/Tgl4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

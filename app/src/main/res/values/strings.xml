@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">UTS_DanielLexandrosthHalim</string>
+    <string name="Nama">Daniel Lexandrosth Halim</string>
+    <string name="NIM">03081220025</string>
+    <string name="UPH">UPH</string>
+    <string name="Fakultas">Fakultas Ilmu Komputer</string>
+    <string name="Jurusan">Jurusan Sistem Informasi</string>
+    <string name="Tahun">Tahun ke 2</string>
+    <string name="SEP">1340</string>
+    <string name="SEPanjang">Student Engagement Poin</string>
+    <string name="Profil">Profil</string>
+    <string name="Ubah">Ubah Profil Saya</string>
+    <string name="Semester">Semester 4</string>
+    <string name="Medan">Medan</string>
+    <string name="SEP60">60 SEP Poin</string>
+    <string name="SEP32">32 SEP Poin</string>
+    <string name="SEP64">64 SEP Poin</string>
+    <string name="Event1">Day of Togetherness and Sharing 2023</string>
+    <string name="Event2">Sketch Your Path 2.0 2023</string>
+    <string name="Event3">Survei Misi Misi Tujuan UPH November</string>
+    <string name="Event4">UPHMN Christmas Celebration 2023</string>
+    <string name="Tgl1">16-03-2023</string>
+    <string name="Tgl2">16-08-2023</string>
+    <string name="Tgl3">15-05-2023</string>
+    <string name="Tgl4">15-06-2023</string>
+    <string name="Riwayat">Riwayat SEP Poin</string>
+    <string name="StudentID">Student ID</string>
+    <string name="Nama1">Nama</string>
+    <string name="Jurusan1">Jurusan</string>
+    <string name="TahunMasuk">Tahun Masuk</string>
+    <string name="Kampus">Kampus</string>
+    <string name="Submit">Submit</string>
+    <string name="Profil1">Profil Mahasiswa</string>
+    <string name="Status">Status Mahasiswa</string>
+
+</resources>
